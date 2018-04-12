@@ -6,6 +6,8 @@
 		<Borrow/>
 		<Money/>
 		<Product/>
+		<Life/>
+		<Insurance/>
 	</div>
 </template>
 
@@ -16,6 +18,8 @@
 	import Borrow from './borrow.vue';
 	import Money from './money.vue';
 	import Product from './produce.vue';
+	import Life from './Life.vue';
+	import Insurance from './insurance.vue';
 	export default {
 		components: {
 			Heador,
@@ -23,7 +27,9 @@
 			Novice,
 			Borrow,
 			Money,
-			Product
+			Product,
+			Life,
+			Insurance
 		}
 	}
 </script>
