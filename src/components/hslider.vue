@@ -57,9 +57,10 @@
 <style lang='scss'>
 	@import '../css/px2rem.scss';
 	@import '../css/element.scss';
-  $designWidth : 640; //写scss之前，必须要先定义designWidth。
+  	$designWidth : 640; //写scss之前，必须要先定义designWidth。
 	.hslider {
-		margin-top: px2rem(120);
+		background-color: #fff;
+		margin-top: px2rem(112);
 		img {
 			width: 100%;
 		}
@@ -76,7 +77,7 @@
 					width: px2rem(90)
 				}
 				p {
-					margin-top: px2rem(12);
+					margin: px2rem(12) 0;
 				}
 			}
 		}

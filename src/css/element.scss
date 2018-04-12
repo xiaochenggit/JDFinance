@@ -1,4 +1,6 @@
 @import './layout.scss';
+@import './px2rem.scss';
+$designWidth : 640; //写scss之前，必须要先定义designWidth。
 
 @mixin btn ($size:14px,$color:#fff,$bgcolor:#f04752,$padding:5px,$radius:5px) {
     padding: $padding;
@@ -16,7 +18,7 @@
     @include flex($direction);
 }
 
-@mixin panel($bgcolor: #fff,$padding: 0,$margin: 20px 0,$height:112px,$text-padding: 0 32px,$color:#333,$fontSize:32px) {
+@mixin panel($bgcolor: #fff,$padding: 0,$margin:px2rem(20) 0,$height:px2rem(112),$text-padding: 0 px2rem(64),$color:#333,$fontSize: px2rem(32)) {
     background-color: $bgcolor;
     padding: $padding;
     margin: $margin;
@@ -30,5 +32,6 @@
         text-align: center;
         color: $color;
         font-size: $fontSize;
+        font-weight: bold;
     }
 }

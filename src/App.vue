@@ -9,6 +9,9 @@ export default {
   name: 'App'
 }
 </script>
-<style lang="sass">
-  @import './css/reset.scss'
+<style lang="scss">
+  @import './css/reset.scss';
+  body {
+    background-color: #f5f5f5;
+  }
 </style>
