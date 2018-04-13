@@ -1,5 +1,5 @@
 <template>
-	<div class="home">
+	<div class="home main">
 		<Heador/>
 		<Hslider/>
 		<Novice/>
@@ -10,6 +10,7 @@
 		<Insurance/>
 		<HaveCar/>
 		<Footer/>
+		<NavBar/>
 	</div>
 </template>
 
@@ -24,6 +25,7 @@
 	import Insurance from './insurance.vue';
 	import HaveCar from './havecar.vue';
 	import Footer from '../public/footer.vue';
+	import NavBar from '../public/navBar.vue';
 	export default {
 		components: {
 			Heador,
@@ -35,7 +37,8 @@
 			Life,
 			Insurance,
 			HaveCar,
-			Footer
+			Footer,
+			NavBar
 		}
 	}
 </script>

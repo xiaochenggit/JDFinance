@@ -60,7 +60,6 @@
   	$designWidth : 640; //写scss之前，必须要先定义designWidth。
 	.hslider {
 		background-color: #fff;
-		margin-top: px2rem(112);
 		img {
 			width: 100%;
 		}
