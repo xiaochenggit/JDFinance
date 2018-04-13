@@ -8,6 +8,8 @@
 		<Product/>
 		<Life/>
 		<Insurance/>
+		<HaveCar/>
+		<Footer/>
 	</div>
 </template>
 
@@ -20,6 +22,8 @@
 	import Product from './produce.vue';
 	import Life from './Life.vue';
 	import Insurance from './insurance.vue';
+	import HaveCar from './havecar.vue';
+	import Footer from '../public/footer.vue';
 	export default {
 		components: {
 			Heador,
@@ -29,7 +33,9 @@
 			Money,
 			Product,
 			Life,
-			Insurance
+			Insurance,
+			HaveCar,
+			Footer
 		}
 	}
 </script>
