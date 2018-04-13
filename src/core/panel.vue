@@ -1,6 +1,6 @@
 <template>
   <section :class="[panelClass, cname]">
-    <h4 v-if="title">-&nbsp;{{ title }}&nbsp;-</h4>
+    <h4 v-if="title" :class="{'border': isBorder}">-&nbsp;{{ title }}&nbsp;-</h4>
     <slot/>
   </section>
 </template>
@@ -15,6 +15,12 @@
       title : {
         type: String,
         default: ''
+      },
+      isBorder: {
+        type: Boolean,
+        default() {
+          return false
+        }
       }
     },
     data () {
@@ -29,5 +35,8 @@
   @import '../css/element.scss';
   .panel {
     @include panel;
+    >h4.border {
+      border-bottom: 1px solid #ddd;
+    }
   }
 </style>

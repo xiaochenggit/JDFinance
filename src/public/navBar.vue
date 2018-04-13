@@ -8,7 +8,7 @@
         </router-link>  
       </li>
       <li>
-        <router-link :to="{'name': 'home'}">
+        <router-link :to="{'name': 'money'}">
           <img src="../img/580f1e25N028a1f2c.png" alt="理财">
           <p>理财</p>
         </router-link>
@@ -68,6 +68,9 @@
         a {
           text-decoration: none;
           color:#656565;
+          &.router-link-exact-active{
+            color: red;
+          }
         }
       }
     }

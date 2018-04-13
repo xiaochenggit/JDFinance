@@ -1,6 +1,6 @@
 <template>
   <div class="novice">
-    <Panle :cname='panleName' :title='panleTitle'>
+    <Panle cname='novice-pancel' title='新手特权' :isBorder='true'>
       <section class="novice-body">
         <div class="item">
           <h4>下载APP送888元礼包</h4>
@@ -37,25 +37,16 @@
 <script>
   import Panle from '../core/panel.vue';
   export default {
-    data () {
-      return {
-        panleName: 'novice-pancel',
-        panleTitle: '新手特权'
-      }
-    },
     components: {
       Panle
     }
   }
 </script>
-<style lang='scss'>
+<style lang='scss' scoped>
   @import '../css/layout.scss';
   @import '../css/px2rem.scss';
   $designWidth : 640; //写scss之前，必须要先定义designWidth。
   .novice-pancel{
-    &>h4 {
-      border-bottom: 1px solid #555;
-    }
     .novice-body {
       @include flex(row);
       line-height: px2rem(40);
@@ -72,7 +63,7 @@
         box-sizing: border-box;
         &:first-child {
           text-align: center;
-          border-right: 1px solid #555;
+          border-right: 1px solid #ddd;
           padding: px2rem(20);
           img {
             margin-top: px2rem(10);
@@ -86,7 +77,7 @@
           overflow: hidden;
           width: 100%;
           &:first-child {
-            border-bottom: 1px solid #555;
+            border-bottom: 1px solid #ddd;
           }
           img {
             height: px2rem(88);

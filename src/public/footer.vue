@@ -2,7 +2,7 @@
   <footer class="company-footer">
     <Panel cname="company-panel">
       <section class="company-panel-body">
-        <div class="service">
+        <div class="service" v-if="isService">
           <img src="../img/577cf395N31e76288.png" alt="客服专线">
         </div>
         <div class="version">
@@ -33,6 +33,14 @@
 <script>
   import Panel from '../core/panel.vue';
   export default {
+    props: {
+      isService: {
+        type: Boolean,
+        default () {
+          return true
+        }
+      }
+    },
     components: {
       Panel
     }
