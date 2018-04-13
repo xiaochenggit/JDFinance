@@ -1,31 +1,31 @@
 <template>
-  <div class="featured">
-    <Panel cname="featured-panel" title="理财精选" :isBorder='true'>
-      <section class="featured-panel-body">
+  <div class="welfare">
+    <Panel cname="welfare-panel" title="白条福利" :isBorder='true'>
+      <section class="welfare-panel-body">
         <ul>
           <li>
-            <img src="../img/580d80afN63b1085a.png" alt="月度"/>
+            <img src="../img/58affd58Nb5c9198e.jpg" alt="开通白条"/>
             <div>
-              <h4>月度理财</h4>
-              <p>预期年化收益率4.50%</p>
+              <h4>开通白条</h4>
+              <p>送188元礼包</p>
             </div>
-            <em>去赚钱 ></em>
+            <em>立即开通 ></em>
           </li>
           <li>
-            <img src="../img/580d8189N6b6f8052.png" alt="月度"/>
+            <img src="../img/58affc3bNbfa8f9d7.jpg" alt="月度"/>
             <div>
-              <h4>季度理财</h4>
-              <p>历史年化回报率5.50%</p>
+              <h4>白条闪付</h4>
+              <p>新手享158元礼包</p>
             </div>
-            <em>去赚钱 ></em>
+            <em>随机立减 ></em>
           </li>
           <li>
-            <img src="../img/580d7f6cN7f35e596.png" alt="月度"/>
+            <img src="../img/58bd2e10N453e9464.jpg" alt="月度"/>
             <div>
-              <h4>一年理财</h4>
-              <p>历史年化回报率5.80%</p>
+              <h4>白条提额</h4>
+              <p>金融app专享提额礼包</p>
             </div>
-            <em>去赚钱 ></em>
+            <em>去提额 ></em>
           </li>
         </ul>
       </section>
@@ -46,8 +46,8 @@
   @import '../css/layout.scss';
   @import '../css/px2rem.scss';
   $designWidth : 640;
-  .featured {
-    .featured-panel-body {
+  .welfare {
+    .welfare-panel-body {
       li {
         height: px2rem(140);
         @include flex(row);

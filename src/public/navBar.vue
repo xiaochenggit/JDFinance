@@ -14,7 +14,7 @@
         </router-link>
       </li>
       <li>
-        <router-link :to="{'name': 'home'}">
+        <router-link :to="{'name': 'whitebar'}">
           <img src="../img/580f50e4N005181d0.png" alt="白条">
           <p>白条</p>
         </router-link>
