@@ -4,6 +4,7 @@ import Home from '@/home/home.vue'
 import Money from '@/money/money.vue'
 import WhiteBar from '@/whitebar/whitebar.vue'
 import Crowd from '@/crowd/crowd.vue'
+import DownLoad from '@/special/download.vue'
 Vue.use(Router)
 
 export default new Router({
@@ -24,6 +25,10 @@ export default new Router({
       path: '/crowd',
       name: 'crowd',
       component: Crowd
+    }, {
+      path: '/download',
+      name: 'download',
+      component: DownLoad
     }
   ]
 })
