@@ -6,29 +6,29 @@
 </template>
 
 <script>
-  export default {
-    props: {
-      cname: {
-        type: String,
-        default: ''
-      },
-      title : {
-        type: String,
-        default: ''
-      },
-      isBorder: {
-        type: Boolean,
-        default() {
-          return false
-        }
-      }
+export default {
+  props: {
+    cname: {
+      type: String,
+      default: ''
     },
-    data () {
-      return {
-        panelClass: 'panel'
+    title: {
+      type: String,
+      default: ''
+    },
+    isBorder: {
+      type: Boolean,
+      default () {
+        return false
       }
     }
+  },
+  data () {
+    return {
+      panelClass: 'panel'
+    }
   }
+}
 </script>
 
 <style lang='scss' scoped>

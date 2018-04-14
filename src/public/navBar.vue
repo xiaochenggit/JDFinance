@@ -5,7 +5,7 @@
         <router-link :to="{'name': 'home'}">
           <img src="../img/580f2435Nbfaa8055.png" alt="首页">
           <p>首页</p>
-        </router-link>  
+        </router-link>
       </li>
       <li>
         <router-link :to="{'name': 'money'}">
@@ -31,16 +31,9 @@
           <p>我的</p>
         </router-link>
       </li>
-      
     </ul>
   </nav>
 </template>
-
-<script>
-  export default {
-    
-  }
-</script>
 
 <style scoped lang='scss'>
   @import '../css/layout.scss';

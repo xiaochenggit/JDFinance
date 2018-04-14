@@ -13,33 +13,33 @@
 </template>
 
 <script>
-  import Panle from '../core/panel.vue';
-  export default {
-    data () {
-      return {
-        items: [{
-          title: '惠加油',
-          src: require('../img/58be89c8Nb9d41295.png')
-        },{
-          title: '小白信用',
-          src: require('../img/58be8a6eNf10193d0.png'),
-          active: '全面升级'
-        },{
-          title: '信用卡还款',
-          src: require('../img/58be8a81Nd7716a06.png')
-        },{
-          title: '卡转让',
-          src: require('../img/58be8acfNdadcaf00.png')
-        },{
-          title: '定期还款',
-          src: require('../img/58f57851N17ee6993.jpg')
-        }]
-      }
-    },
-    components: {
-      Panle
+import Panle from '../core/panel.vue'
+export default {
+  data () {
+    return {
+      items: [{
+        title: '惠加油',
+        src: require('../img/58be89c8Nb9d41295.png')
+      }, {
+        title: '小白信用',
+        src: require('../img/58be8a6eNf10193d0.png'),
+        active: '全面升级'
+      }, {
+        title: '信用卡还款',
+        src: require('../img/58be8a81Nd7716a06.png')
+      }, {
+        title: '卡转让',
+        src: require('../img/58be8acfNdadcaf00.png')
+      }, {
+        title: '定期还款',
+        src: require('../img/58f57851N17ee6993.jpg')
+      }]
     }
+  },
+  components: {
+    Panle
   }
+}
 </script>
 
 <style scoped lang='scss'>

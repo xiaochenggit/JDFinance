@@ -12,12 +12,12 @@
 </template>
 
 <script>
-  import Panel from '../core/panel.vue';
-  export default {
-    components: {
-      Panel
-    }
+import Panel from '../core/panel.vue'
+export default {
+  components: {
+    Panel
   }
+}
 </script>
 
 <style scoped lang='scss'>
@@ -28,7 +28,7 @@
     .crow-more-welfare-panel {
       position: relative;
       padding-bottom: px2rem(40);
-    } 
+    }
     .list{
       @include flex(row);
       >img{

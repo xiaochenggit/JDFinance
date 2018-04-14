@@ -12,41 +12,41 @@
 </template>
 
 <script>
-  import Panle from '../core/panel.vue';
-  export default {
-    data () {
-      return {
-        items: [{
-          title: '小白卡',
-          src: require('../img/590aca78Nf15a7947.png')
-        },{
-          title: '白条商城',
-          src: require('../img/590aca55N22a6f274.png'),
-        },{
-          title: '消费分期',
-          src: require('../img/590ac7deN9a0eac2a.png')
-        },{
-          title: '借钱',
-          src: require('../img/59b8da06N14f62cf3.png')
-        },{
-          title: '白条提额',
-          src: require('../img/590ac8e8Ne9def22e.png')
-        },{
-          title: '白条闪付',
-          src: require('../img/590ac8afN5dd91d6e.png'),
-        },{
-          title: '小白会玩',
-          src: require('../img/590ac860N752d5738.png')
-        },{
-          title: '钢镚',
-          src: require('../img/590aca20N089fd34a.png')
-        }]
-      }
-    },
-    components: {
-      Panle
+import Panle from '../core/panel.vue'
+export default {
+  data () {
+    return {
+      items: [{
+        title: '小白卡',
+        src: require('../img/590aca78Nf15a7947.png')
+      }, {
+        title: '白条商城',
+        src: require('../img/590aca55N22a6f274.png')
+      }, {
+        title: '消费分期',
+        src: require('../img/590ac7deN9a0eac2a.png')
+      }, {
+        title: '借钱',
+        src: require('../img/59b8da06N14f62cf3.png')
+      }, {
+        title: '白条提额',
+        src: require('../img/590ac8e8Ne9def22e.png')
+      }, {
+        title: '白条闪付',
+        src: require('../img/590ac8afN5dd91d6e.png')
+      }, {
+        title: '小白会玩',
+        src: require('../img/590ac860N752d5738.png')
+      }, {
+        title: '钢镚',
+        src: require('../img/590aca20N089fd34a.png')
+      }]
     }
+  },
+  components: {
+    Panle
   }
+}
 </script>
 
 <style scoped lang='scss'>

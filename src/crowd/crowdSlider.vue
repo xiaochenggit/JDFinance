@@ -11,22 +11,22 @@
 </template>
 
 <script>
-  import { swiper, swiperSlide } from 'vue-awesome-swiper'
-  export default {
-    data () {
-      return {
-        swiperOption: {
-          direction: 'vertical',
-          autoplay: true,
-          loop: true
-        }
+import { swiper, swiperSlide } from 'vue-awesome-swiper'
+export default {
+  data () {
+    return {
+      swiperOption: {
+        direction: 'vertical',
+        autoplay: true,
+        loop: true
       }
-    },
-    components: {
-      swiper,
-      swiperSlide
     }
+  },
+  components: {
+    swiper,
+    swiperSlide
   }
+}
 </script>
 
 <style scoped lang='scss'>

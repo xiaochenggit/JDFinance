@@ -8,12 +8,12 @@
 </template>
 
 <script>
-  import Btn from '../core/btn.vue';
-  export default {
-    components: {
-      Btn
-    }
+import Btn from '../core/btn.vue'
+export default {
+  components: {
+    Btn
   }
+}
 </script>
 
 <style lang='scss' scoped>

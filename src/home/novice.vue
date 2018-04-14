@@ -35,12 +35,12 @@
 </template>
 
 <script>
-  import Panle from '../core/panel.vue';
-  export default {
-    components: {
-      Panle
-    }
+import Panle from '../core/panel.vue'
+export default {
+  components: {
+    Panle
   }
+}
 </script>
 <style lang='scss' scoped>
   @import '../css/layout.scss';

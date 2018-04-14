@@ -12,26 +12,26 @@
 </template>
 
 <script>
-  import Header from '../public/header.vue';
-  import Footer from '../public/footer.vue';
-  import NavBar from '../public/navBar.vue';
-  import Mslider from './mSlider.vue';
-  import AdvertisingOne from './advertisingOne.vue';
-  import MoneyM from './money-m.vue';
-  import Featured from './featured.vue';
-  import AdvertisingTwo from './advertisingTwo.vue';
-  export default {
-    components: {
-      Header,
-      Footer,
-      NavBar,
-      Mslider,
-      AdvertisingOne,
-      MoneyM,
-      Featured,
-      AdvertisingTwo
-    }
+import Header from '../public/header.vue'
+import Footer from '../public/footer.vue'
+import NavBar from '../public/navBar.vue'
+import Mslider from './mSlider.vue'
+import AdvertisingOne from './advertisingOne.vue'
+import MoneyM from './money-m.vue'
+import Featured from './featured.vue'
+import AdvertisingTwo from './advertisingTwo.vue'
+export default {
+  components: {
+    Header,
+    Footer,
+    NavBar,
+    Mslider,
+    AdvertisingOne,
+    MoneyM,
+    Featured,
+    AdvertisingTwo
   }
+}
 </script>
 <style lang='scss'>
   .money-vue {

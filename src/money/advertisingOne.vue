@@ -7,14 +7,13 @@
 </template>
 
 <script>
-  import Panel from '../core/panel.vue';
-  export default {
-    components: {
-      Panel
-    }
+import Panel from '../core/panel.vue'
+export default {
+  components: {
+    Panel
   }
+}
 </script>
 
 <style scoped>
-
 </style>

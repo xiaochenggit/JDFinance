@@ -13,37 +13,37 @@
 </template>
 
 <script>
-  import Panel from '../core/panel.vue';
-  export default {
-    data () {
-      return {
-        items: [{
-          title: '定期理财',
-          sub: '90天可质押',
-          percent: '5.50%',
-          des: '历史年化结算利率'
-        },{
-          title: '年年盈',
-          sub: '理财推荐',
-          percent: '5.80%',
-          des: '综合年化收益率'
-        },{
-          title: '基智账户',
-          sub: '组合投资',
-          percent: '8%-10%',
-          des: '止盈年化收益率'
-        },{
-          title: '小白基金',
-          sub: '超短期',
-          percent: '5.00%',
-          des: '7日年化收益率'
-        }]
-      }
-    },
-    components: {
-      Panel
+import Panel from '../core/panel.vue'
+export default {
+  data () {
+    return {
+      items: [{
+        title: '定期理财',
+        sub: '90天可质押',
+        percent: '5.50%',
+        des: '历史年化结算利率'
+      }, {
+        title: '年年盈',
+        sub: '理财推荐',
+        percent: '5.80%',
+        des: '综合年化收益率'
+      }, {
+        title: '基智账户',
+        sub: '组合投资',
+        percent: '8%-10%',
+        des: '止盈年化收益率'
+      }, {
+        title: '小白基金',
+        sub: '超短期',
+        percent: '5.00%',
+        des: '7日年化收益率'
+      }]
     }
+  },
+  components: {
+    Panel
   }
+}
 </script>
 
 <style scoped lang='scss'>
@@ -78,7 +78,7 @@
         display: none;
       }
       position: relative;
-      width: 50%; 
+      width: 50%;
       height: px2rem(218);
       padding-left: px2rem(32);
       box-sizing: border-box;

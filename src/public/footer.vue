@@ -31,20 +31,20 @@
 </template>
 
 <script>
-  import Panel from '../core/panel.vue';
-  export default {
-    props: {
-      isService: {
-        type: Boolean,
-        default () {
-          return true
-        }
+import Panel from '../core/panel.vue'
+export default {
+  props: {
+    isService: {
+      type: Boolean,
+      default () {
+        return true
       }
-    },
-    components: {
-      Panel
     }
+  },
+  components: {
+    Panel
   }
+}
 </script>
 
 <style scoped lang='scss'>
