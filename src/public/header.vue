@@ -23,7 +23,7 @@
     padding: px2rem(18) px2rem(22);
     font-size: px2rem(28);
     line-height: px2rem(56);
-    background: #f9f9f9 url('../img/jr-logo.png') center center no-repeat;
+    background: #fff url('../img/jr-logo.png') center center no-repeat;
     background-size: auto 50%;
     position: fixed;
     z-index: 100;

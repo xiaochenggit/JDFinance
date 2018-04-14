@@ -20,7 +20,7 @@
         </router-link>
       </li>
       <li>
-        <router-link :to="{'name': 'home'}">
+        <router-link :to="{'name': 'crowd'}">
           <img src="../img/580f240aNbee3dcc4.png" alt="众筹">
           <p>众筹</p>
         </router-link>
